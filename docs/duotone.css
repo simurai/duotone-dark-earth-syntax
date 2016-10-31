@@ -1,15 +1,15 @@
 atom-text-editor,
 :host {
-  color: #b59987;
-  background-color: #322d29;
+  color: #bd987f;
+  background-color: #2c2826;
 }
 atom-text-editor .line.cursor-line,
 :host .line.cursor-line {
-  background-color: rgba(84, 75, 69, 0.26);
+  background-color: rgba(77, 70, 66, 0.26);
 }
 atom-text-editor .invisible,
 :host .invisible {
-  color: #b59987;
+  color: #bd987f;
 }
 atom-text-editor .cursor,
 :host .cursor {
@@ -18,7 +18,7 @@ atom-text-editor .cursor,
 }
 atom-text-editor .selection .region,
 :host .selection .region {
-  background-color: #544b45;
+  background-color: #4d4642;
 }
 atom-text-editor .bracket-matcher .region,
 :host .bracket-matcher .region {
@@ -26,16 +26,16 @@ atom-text-editor .bracket-matcher .region,
 }
 atom-text-editor .invisible-character,
 :host .invisible-character {
-  color: #4f4640;
+  color: #48413d;
   -webkit-font-smoothing: antialiased;
 }
 atom-text-editor .indent-guide,
 :host .indent-guide {
-  color: #4f4640;
+  color: #48413d;
 }
 atom-text-editor .wrap-guide,
 :host .wrap-guide {
-  background-color: #4f4640;
+  background-color: #48413d;
 }
 atom-text-editor .find-result .region.region.region,
 :host .find-result .region.region.region,
@@ -56,7 +56,7 @@ atom-text-editor .current-result .region.region.region,
 }
 atom-text-editor .gutter .line-number,
 :host .gutter .line-number {
-  color: #695f59;
+  color: #705e51;
   -webkit-font-smoothing: antialiased;
 }
 atom-text-editor .gutter .line-number.git-line-removed:before,
@@ -75,8 +75,8 @@ atom-text-editor .gutter .line-number.git-line-removed:after,
 }
 atom-text-editor .gutter .line-number.cursor-line,
 :host .gutter .line-number.cursor-line {
-  color: #b59987;
-  background-color: #3b3430;
+  color: #bd987f;
+  background-color: #34302d;
 }
 atom-text-editor .gutter .line-number.cursor-line-no-selection,
 :host .gutter .line-number.cursor-line-no-selection {
@@ -84,7 +84,7 @@ atom-text-editor .gutter .line-number.cursor-line-no-selection,
 }
 atom-text-editor .gutter .line-number .icon-right,
 :host .gutter .line-number .icon-right {
-  color: #b59987;
+  color: #bd987f;
 }
 atom-text-editor .gutter .line-number.folded,
 :host .gutter .line-number.folded,
@@ -92,50 +92,50 @@ atom-text-editor .gutter .line-number:after,
 :host .gutter .line-number:after,
 atom-text-editor .fold-marker:after,
 :host .fold-marker:after {
-  color: #b59987;
+  color: #bd987f;
 }
 .uno-1 {
-  color: #fff3eb;
+  color: #ffdac2;
 }
 .uno-2 {
-  color: #b59987;
+  color: #bd987f;
 }
 .uno-3 {
-  color: #89776c;
+  color: #98755d;
 }
 .uno-4 {
-  color: #695f59;
+  color: #705e51;
 }
 .uno-5 {
-  color: #443f3c;
+  color: #564b43;
 }
 .duo-1 {
   color: #fecb52;
 }
 .duo-2 {
-  color: #bfa05a;
+  color: #b09045;
 }
 .duo-3 {
-  color: #8b7b55;
+  color: #726546;
 }
 .meta {
-  color: #443f3c;
+  color: #564b43;
 }
 .html.elements,
 .entity,
 .tag,
 .function-call {
-  color: #fff3eb;
+  color: #ffdac2;
 }
 .attribute-name,
 .character.escape {
-  color: #89776c;
+  color: #98755d;
 }
 .support {
-  color: #695f59;
+  color: #705e51;
 }
 .variable {
-  color: #89776c;
+  color: #98755d;
 }
 .string,
 .constant,
@@ -144,18 +144,18 @@ atom-text-editor .fold-marker:after,
 }
 .keyword,
 .storage {
-  color: #bfa05a;
+  color: #b09045;
 }
 .punctuation,
 .bracket,
 .brace {
-  color: #443f3c;
+  color: #564b43;
 }
 .string .punctuation {
-  color: #8b7b55;
+  color: #726546;
 }
 .comment {
-  color: #443f3c;
+  color: #705e51;
   font-style: italic;
 }
 .bold {
@@ -166,7 +166,7 @@ atom-text-editor .fold-marker:after,
 }
 .c .parens,
 .c .block {
-  color: #b59987;
+  color: #bd987f;
 }
 .c .parens .punctuation,
 .c .block .punctuation,
@@ -174,75 +174,78 @@ atom-text-editor .fold-marker:after,
 .c .block .bracket,
 .c .parens .brace,
 .c .block .brace {
-  color: #443f3c;
+  color: #564b43;
 }
 .c .parens .string .punctuation,
 .c .block .string .punctuation {
-  color: #8b7b55;
+  color: #726546;
 }
 .c .comment {
-  color: #8b7b55;
+  color: #726546;
 }
 .source.clojure .expression {
   color: #fecb52;
 }
 .source.clojure .expression .punctuation {
-  color: #443f3c;
+  color: #564b43;
 }
 .source.clojure .symbol {
-  color: #b59987;
+  color: #bd987f;
 }
 .source.clojure .vector {
-  color: #695f59;
+  color: #705e51;
 }
 .coffee.source {
-  color: #695f59;
+  color: #705e51;
 }
 .source.cs .meta {
-  color: #695f59;
+  color: #705e51;
 }
 .source.cs .method {
-  color: #b59987;
+  color: #bd987f;
 }
 .css.source {
-  color: #443f3c;
+  color: #564b43;
+}
+.css.support.property-name {
+  color: #98755d;
 }
 .css.attribute-name.id,
 .css.attribute-name.class,
 .css.attribute-name.parent-selector {
-  color: #fff3eb;
+  color: #ffdac2;
 }
 .css.unit {
-  color: #bfa05a;
+  color: #b09045;
 }
 .css.function {
-  color: #8b7b55;
+  color: #726546;
 }
 .css.punctuation.terminator {
-  color: #8b7b55;
+  color: #726546;
 }
 .css.at-rule {
-  color: #fff3eb;
+  color: #ffdac2;
 }
 .css.at-rule .keyword.punctuation {
   color: inherit;
 }
 .gfm {
-  color: #fff3eb;
+  color: #ffdac2;
 }
 .gfm .punctuation,
 .gfm .bracket,
 .gfm .brace {
-  color: #443f3c;
+  color: #564b43;
 }
 .gfm .string .punctuation {
-  color: #8b7b55;
+  color: #726546;
 }
 .gfm .link {
-  color: #b59987;
+  color: #bd987f;
 }
 .gfm.markup {
-  color: #b59987;
+  color: #bd987f;
 }
 .gfm.markup.bold {
   font-weight: bold;
@@ -251,7 +254,7 @@ atom-text-editor .fold-marker:after,
   font-style: italic;
 }
 .gfm.markup.strike {
-  color: #443f3c;
+  color: #564b43;
   text-decoration: line-through;
 }
 .gfm.markup.raw {
@@ -259,27 +262,27 @@ atom-text-editor .fold-marker:after,
 }
 .gfm.markup.raw .support,
 .gfm.markup.code .support {
-  color: #443f3c;
+  color: #705e51;
 }
 .gfm.comment {
-  color: #443f3c;
+  color: #705e51;
 }
 .gfm.comment.quote {
-  color: #b59987;
+  color: #bd987f;
 }
 .gfm.table {
   color: #fecb52;
 }
 .gfm.table .border,
 .gfm.table .pipe {
-  color: #443f3c;
+  color: #564b43;
 }
 .gfm.variable,
 .gfm.entity {
   color: #fecb52;
 }
 .gfm.support {
-  color: #bfa05a;
+  color: #b09045;
 }
 .gfm.heading-1,
 .gfm.heading-2,
@@ -289,195 +292,219 @@ atom-text-editor .fold-marker:after,
 .gfm.heading-4,
 .gfm.heading-5,
 .gfm.heading-6 {
-  color: #bfa05a;
+  color: #b09045;
 }
 .haskell.source {
-  color: #b59987;
+  color: #bd987f;
 }
 .haskell.source .punctuation,
 .haskell.source .bracket,
 .haskell.source .brace {
-  color: #443f3c;
+  color: #564b43;
 }
 .haskell.source .string .punctuation {
-  color: #8b7b55;
+  color: #726546;
 }
 .html.meta {
-  color: #443f3c;
+  color: #564b43;
 }
+.html.embedded .meta,
+.html.doctype,
 .html.text {
-  color: #695f59;
+  color: #705e51;
 }
 .html .string .id {
   color: #fecb52;
 }
-.jade.text {
-  color: #695f59;
+.jade.text,
+.jade .constant.name.attribute.tag {
+  color: #705e51;
 }
 .jade .meta.control.flow {
-  color: #b59987;
-}
-.jade .constant.name.attribute.tag {
-  color: #443f3c;
+  color: #bd987f;
 }
 .jade .attribute-name.id {
   color: #fecb52;
 }
 .java .method {
-  color: #b59987;
+  color: #bd987f;
 }
 .java .method .punctuation,
 .java .method .bracket,
 .java .method .brace {
-  color: #443f3c;
+  color: #564b43;
 }
 .java .method .string .punctuation {
-  color: #8b7b55;
+  color: #726546;
 }
 .java .dereference {
-  color: #443f3c;
+  color: #705e51;
 }
 .js.source {
-  color: #b59987;
+  color: #bd987f;
 }
 .js.source .punctuation,
 .js.source .bracket,
 .js.source .brace {
-  color: #443f3c;
+  color: #564b43;
 }
 .js.source .string .punctuation {
-  color: #8b7b55;
+  color: #726546;
 }
 .json .string {
-  color: #b59987;
+  color: #bd987f;
 }
 .json .string .punctuation {
-  color: #443f3c;
+  color: #564b43;
 }
 .json .value > .string {
   color: #fecb52;
 }
 .json .value > .string .punctuation {
-  color: #443f3c;
+  color: #564b43;
 }
 .json .value .constant {
-  color: #bfa05a;
+  color: #b09045;
 }
 .less.variable:first-child {
-  color: #b59987;
+  color: #bd987f;
 }
 .less .mixin {
-  color: #bfa05a;
+  color: #b09045;
 }
 .mediawiki {
-  color: #fff3eb;
+  color: #ffdac2;
 }
 .mediawiki .punctuation,
 .mediawiki .bracket,
 .mediawiki .brace {
-  color: #443f3c;
+  color: #564b43;
 }
 .mediawiki .string .punctuation {
-  color: #8b7b55;
+  color: #726546;
 }
 .mediawiki .wiki-link {
-  color: #b59987;
+  color: #bd987f;
 }
 .mediawiki .heading {
   color: #fecb52;
 }
 .mediawiki .function-call {
-  color: #bfa05a;
+  color: #b09045;
 }
 .mediawiki .value {
   color: #fecb52;
 }
 .mediawiki .fix_this_later {
-  color: #b59987;
+  color: #bd987f;
 }
 .mediawiki .pipe,
 .mediawiki .link,
 .mediawiki .tag {
-  color: #443f3c;
+  color: #564b43;
 }
 .php .string-contents {
   color: #fecb52;
 }
 .sass .at-rule .at-rule,
 .sass .at-rule .at-rule > .punctuation {
-  color: #fff3eb;
+  color: #ffdac2;
 }
 .sass .mixin + .function,
 .sass .include + .function {
-  color: #bfa05a;
+  color: #b09045;
 }
 .sass.property-value {
   color: #fecb52;
 }
 .sass.property-value .function {
-  color: #b59987;
+  color: #bd987f;
 }
 .sass.property-value .punctuation {
-  color: #443f3c;
+  color: #564b43;
 }
 .sass.variable.parameter.url {
   color: #fecb52;
 }
 .sass.class,
 .sass.parent-selector-suffix {
-  color: #fff3eb;
+  color: #ffdac2;
 }
 .scss .at-rule .at-rule,
 .scss .at-rule .at-rule > .punctuation {
-  color: #fff3eb;
+  color: #ffdac2;
 }
 .scss .mixin + .function,
 .scss .include + .function {
-  color: #bfa05a;
+  color: #b09045;
 }
 .scss.property-value {
   color: #fecb52;
 }
 .scss.property-value .function {
-  color: #b59987;
+  color: #bd987f;
 }
 .scss.property-value .punctuation {
-  color: #443f3c;
+  color: #564b43;
 }
 .scss.variable.parameter.url {
   color: #fecb52;
 }
 .scss.class,
 .scss.parent-selector-suffix {
-  color: #fff3eb;
+  color: #ffdac2;
 }
 .slim.meta {
-  color: #443f3c;
+  color: #564b43;
 }
 .slim.text {
-  color: #695f59;
+  color: #705e51;
 }
 .slim .string .id {
   color: #fecb52;
 }
 .stylus .function .name {
-  color: #bfa05a;
+  color: #b09045;
 }
 .tex .other {
-  color: #bfa05a;
+  color: #b09045;
 }
 .tex .reference {
-  color: #b59987;
+  color: #bd987f;
 }
 .plain .text {
-  color: #fff3eb;
+  color: #ffdac2;
 }
 .yaml .tag {
-  color: #b59987;
+  color: #bd987f;
 }
 .yaml .constant {
-  color: #bfa05a;
+  color: #b09045;
 }
 .yaml .punctuation {
-  color: #443f3c;
+  color: #564b43;
+}
+atom-text-editor::shadow [data-screen-row="1"] .text {
+  color: #ffdac2;
+}
+atom-text-editor::shadow [data-screen-row="2"] .text {
+  color: #bd987f;
+}
+atom-text-editor::shadow [data-screen-row="3"] .text {
+  color: #98755d;
+}
+atom-text-editor::shadow [data-screen-row="4"] .text {
+  color: #705e51;
+}
+atom-text-editor::shadow [data-screen-row="5"] .text {
+  color: #564b43;
+}
+atom-text-editor::shadow [data-screen-row="7"] .text {
+  color: #fecb52;
+}
+atom-text-editor::shadow [data-screen-row="8"] .text {
+  color: #b09045;
+}
+atom-text-editor::shadow [data-screen-row="9"] .text {
+  color: #726546;
 }
