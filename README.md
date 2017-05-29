@@ -1,4 +1,4 @@
-> Note: This theme is __deprecated__. Take a look at https://atom.io/packages/tone-syntax that is somewhat similar.
+> Note: This theme is __deprecated__. Take a look at [tone-syntax](https://atom.io/packages/tone-syntax) that is somewhat similar.
 
 # DuoTone Dark Earth Theme
 
